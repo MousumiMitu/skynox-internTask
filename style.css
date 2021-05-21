@@ -11,7 +11,7 @@ section {
   width: 100%;
   margin: 1rem 0;
   display: flex;
-  height: 620px;
+  height: 600px;
 }
 .img-container {
   width: 48%;
@@ -92,19 +92,19 @@ section {
 }
 .info-box {
   width: 80%;
-  margin: 2rem auto;
+  margin: 1.7rem auto;
   position: relative;
 }
 .info-box h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 1.1rem;
   color: #3a3a3a;
   font-family: "DM Serif Display", serif;
 }
 .info-box h6 {
   font-size: 1.2rem;
   line-height: 1.6rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.2rem;
   color: #515050;
 }
 .info-box p {
@@ -116,7 +116,7 @@ section {
 .fa-star {
   font-size: 1.5rem;
   color: #00d19b;
-  margin: 1.2rem 0;
+  margin: 1rem 0;
 }
 span {
   color: #00d19b;
@@ -131,7 +131,7 @@ span {
 }
 .info-box h1 {
   font-size: 2.5rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.3rem;
   color: #3a3a3a;
 }
 .other-tag {
@@ -153,6 +153,9 @@ span {
 .btn-1 {
   background: #1e1e1e;
   color: #fff;
+}
+.btn-2 {
+  background: #fff;
 }
 .service-container {
   display: flex;
