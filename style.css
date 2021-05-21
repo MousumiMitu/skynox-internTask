@@ -20,7 +20,7 @@ section {
 .slider-img {
   position: absolute;
   width: 95%;
-  height: 510px;
+  height: 498px;
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
@@ -144,7 +144,7 @@ span {
 .btn-1,
 .btn-2 {
   padding: 15px 0;
-  width: 250px;
+  width: 200px;
   border: 1px solid #1e1e1e;
   font-size: 1.1rem;
   margin-right: 10px;
