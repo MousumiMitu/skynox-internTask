@@ -20,8 +20,8 @@ section {
 }
 .slider-img {
   position: absolute;
-  width: 550px;
-  height: 550px;
+  width: 580px;
+  height: 580px;
   margin: 0 auto;
   border: 1px solid blue;
   left: 50%;
@@ -38,6 +38,34 @@ section {
 #sofa-4,
 #sofa-5 {
   display: none;
+}
+.pre,
+.next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  cursor: pointer;
+}
+.pre {
+  left: 15px;
+}
+.next {
+  right: 15px;
+}
+.slider-img {
+  z-index: -1;
+}
+#sofa-1:checked ~ #one,
+#sofa-2:checked ~ #two,
+#sofa-3:checked ~ #three,
+#sofa-4:checked ~ #four,
+#sofa-5:checked ~ #five {
+  z-index: 9;
 }
 .details-container {
   width: 56%;
