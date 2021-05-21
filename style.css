@@ -9,7 +9,7 @@ section {
 }
 .main-container {
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   height: 620px;
 }
@@ -21,7 +21,7 @@ section {
 .slider-img {
   position: absolute;
   width: 95%;
-  height: 500px;
+  height: 510px;
   margin: 0 auto;
   /* border: 1px solid blue; */
   left: 50%;
@@ -72,7 +72,7 @@ section {
   position: absolute;
   bottom: 0;
   width: 95%;
-  height: 95px;
+  height: 88px;
   left: 50%;
   transform: translateX(-50%);
   display: grid;
@@ -92,4 +92,22 @@ section {
 .details-container {
   width: 52%;
   border: 1px solid red;
+}
+.info-box {
+  width: 80%;
+  margin: 3rem auto;
+}
+.info-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.info-box h6 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+.info-box p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: rgb(39, 38, 38);
 }
