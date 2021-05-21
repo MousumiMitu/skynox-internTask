@@ -14,7 +14,7 @@ section {
   height: 690px;
 }
 .img-container {
-  width: 44%;
+  width: 48%;
   /* border: 1px solid green; */
   position: relative;
 }
@@ -90,6 +90,6 @@ section {
   object-fit: cover;
 }
 .details-container {
-  width: 56%;
+  width: 52%;
   border: 1px solid red;
 }
