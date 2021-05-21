@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 section {
   width: 85%;
@@ -91,23 +92,65 @@ section {
 }
 .details-container {
   width: 52%;
-  border: 1px solid red;
 }
 .info-box {
   width: 80%;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 .info-box h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  color: #3a3a3a;
+  font-family: "DM Serif Display", serif;
 }
 .info-box h6 {
   font-size: 1.2rem;
   line-height: 1.6rem;
   margin-bottom: 1.8rem;
+  color: #515050;
 }
 .info-box p {
   font-size: 1.2rem;
   line-height: 1.6rem;
-  color: rgb(39, 38, 38);
+  color: #6a6a6a;
+}
+.fa-star {
+  font-size: 1.5rem;
+  color: #00d19b;
+  margin: 1.2rem 0;
+}
+span {
+  color: #00d19b;
+}
+.info-box h5 {
+  color: #6a6a6a;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.info-box a {
+  color: #6a6a6a;
+}
+.info-box h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.8rem;
+  color: #3a3a3a;
+}
+.other-tag {
+  margin-left: 10px;
+}
+.dispatch-text {
+  display: flex;
+  align-items: center;
+}
+.btn-1,
+.btn-2 {
+  padding: 15px 35px;
+  border: 1px solid #1e1e1e;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.btn-1 {
+  background: #1e1e1e;
+  color: #fff;
 }
